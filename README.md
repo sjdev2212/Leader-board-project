@@ -5,9 +5,9 @@
 
 Created a Leader-board 
 
-![screenshot](img/Opera Captura de pantalla_2021-11-18_002757_localhost.png)
+![screenshot](/img/Opera Captura de pantalla_2021-11-18_002757_localhost.png)
 
-Html Webpage with a title 
+A Leader board single page application
 
 ## Built With
 
