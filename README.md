@@ -5,7 +5,7 @@
 
 Created a Leader-board 
 
-![screenshot](31.png)
+![screenshot](./31.png)
 
 A Leader board single page application
 
