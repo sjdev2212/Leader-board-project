@@ -20,10 +20,30 @@ A Leader board single page application
 
 
 
+
 ## Getting Started
 
-Download repository 
-Open index.html in a web browser
+Getting Started
+To get a local copy up and running follow these simple example steps.
+
+Prerequisites:
+
+Node.js & npm installed.
+
+Git and any terminal to run commands.
+
+Installation:
+Clone the repo
+git clone:
+Install NPM packages
+
+npm install
+
+instal webpack
+
+npm start
+
+
 
 
 
