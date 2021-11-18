@@ -5,9 +5,9 @@
 
 Created a Leader-board 
 
-![screenshot](/images/Cap.png)
+![screenshot](/img/31.png)
 
-Html Webpage with a title 
+A Leader board single page application
 
 ## Built With
 

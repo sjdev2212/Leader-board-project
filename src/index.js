@@ -1,11 +1,25 @@
 import './style.css';
 import inputScores from './inputScore.js';
+import { getScores } from './apiMethods.js';
 
+const apiId = 'TyBBHuPCY3ocPCrEApVV';
 inputScores();
 const refresBtn = document.getElementById('refresh');
+
+const populateList = (list) => {
+  const info = document.getElementById('scores');
+  info.innerHTML = '';
+  list.forEach((item) => {
+    const newElement = document.createElement('li');
+    newElement.classList = 'item-list';
+    newElement.innerHTML = `${item.user}: ${item.score}`;
+
+    info.appendChild(newElement);
+  });
+};
+
 refresBtn.addEventListener('click', () => {
-  const ul = document.querySelectorAll('.inside');
-  ul.forEach((item) => {
-    item.remove();
+  getScores(apiId).then((scores) => {
+    populateList(scores.result);
   });
 });
