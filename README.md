@@ -3,7 +3,11 @@
 
 
 
-Created a Leader-board 
+Leader-board 
+
+This project was created consuming the Api https://us-central1-js-capstone-backend.cloudfunctions.net/api/ provided by microvese.
+I created a simple leader board page using this id ('TyBBHuPCY3ocPCrEApVV').
+The user simply introduces the name of the player and the score. Clicking the submit button the page sends the information to the Api and it can be viewed by  clicking the refresh button.
 
 ![screenshot](/img/31.png)
 
@@ -39,7 +43,7 @@ Install NPM packages
 
 npm install
 
-instal webpack
+install webpack
 
 npm start
 
@@ -52,7 +56,10 @@ npm start
 
 👤 **Anibal Amoroso**
 
+
 - GitHub: (https://github.com/sj1978)
+- Twitter: (https://twitter.com/AmorosoAnibal)
+
 
 
 
