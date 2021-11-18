@@ -5,7 +5,7 @@
 
 Created a Leader-board 
 
-![screenshot](/images/Cap.png)
+![screenshot](img/Opera Captura de pantalla_2021-11-18_002757_localhost.png)
 
 Html Webpage with a title 
 
