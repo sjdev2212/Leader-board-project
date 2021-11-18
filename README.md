@@ -5,7 +5,7 @@
 
 Created a Leader-board 
 
-![screenshot](/img/Opera Captura de pantalla_2021-11-18_002757_localhost.png)
+![screenshot](31.png)
 
 A Leader board single page application
 
