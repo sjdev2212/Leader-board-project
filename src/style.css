@@ -1,8 +1,11 @@
 * {
   padding: 0;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   margin: 20px 20px;
   font-weight: bold;
+  animation-name: animation1;
+  background-color: rosybrown;
+  animation-duration: 140s;
+  font-family: 'Playfair Display', serif;
 }
 
 .container {
@@ -43,17 +46,138 @@ ul {
   display: flex;
 }
 
-.submit-btn {
-  width: 50px;
-  margin-left: 95px;
-  height: 30px;
+#refresh {
+  background-color: #343a40;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  height: 35px;
+  width: 100px;
+  transition: 0.3s;
 }
 
-#refresh {
-  width: 50px;
-  height: 30px;
+#refresh:hover {
+  box-shadow: 0 12px 16px 0 rgba(224, 11, 11, 0.24), 0 17px 50px 0 rgba(184, 4, 4, 0.19);
+  transform: translate(0, -10px);
+  background-image:
+    linear-gradient(
+      to right,
+      #e7484f,
+      #f68b1d,
+      #fced00,
+      #009e4f,
+      #00aac3,
+      #732982
+    );
+  animation: slidebg 2s linear infinite;
+}
+
+.submit-btn {
+  background-color: #343a40;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  padding: 8px 16px;
+  height: 35px;
+  width: 100px;
+  transition: 0.3s;
+}
+
+.submit-btn:hover {
+  box-shadow: 0 12px 16px 0 rgba(224, 11, 11, 0.24), 0 17px 50px 0 rgba(184, 4, 4, 0.19);
+  background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet, red);
+  animation: slidebg 2s linear infinite;
+  transform: translate(0, -10px);
 }
 
 .item-list {
   list-style: none;
+}
+
+@keyframes animation1 {
+  0% {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.og/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1013%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='%230e2a47'%3e%3c/rect%3e%3cpath d='M0%2c446.011C84.952%2c428.663%2c167.602%2c418.84%2c247.442%2c385.027C341.857%2c345.042%2c446.279%2c314.236%2c506.72%2c231.411C572.333%2c141.498%2c606.078%2c25.312%2c590.354%2c-84.88C574.623%2c-195.115%2c498.614%2c-284.897%2c421.57%2c-365.293C347.491%2c-442.595%2c264.241%2c-527.699%2c157.538%2c-536.524C54.003%2c-545.087%2c-21.136%2c-440.698%2c-120.421%2c-410.117C-217.735%2c-380.143%2c-338.317%2c-426.454%2c-415.489%2c-360.023C-493.392%2c-292.963%2c-495.582%2c-175.094%2c-511.427%2c-73.532C-527.447%2c29.156%2c-540.332%2c133.201%2c-507.837%2c231.921C-473.033%2c337.658%2c-424.774%2c458.108%2c-322.198%2c501.351C-219.708%2c544.558%2c-108.976%2c468.264%2c0%2c446.011' fill='%230b223a'%3e%3c/path%3e%3cpath d='M1440 1076.4279999999999C1536.241 1095.667 1635.558 1045.3600000000001 1714.099 986.506 1789.692 929.86 1831.8220000000001 842.7280000000001 1868.205 755.554 1903.575 670.808 1932.7730000000001 581.916 1920.966 490.847 1909.069 399.08000000000004 1863.149 315.779 1802.166 246.18200000000002 1741.413 176.84699999999998 1667.892 103.46300000000002 1575.9279999999999 97.07100000000003 1486.076 90.82600000000002 1422.861 182.69099999999997 1338.389 213.945 1262.137 242.15800000000002 1159.013 208.94600000000003 1106.287 270.836 1053.516 332.779 1091.085 427.959 1086.834 509.222 1083.03 581.94 1057.226 654.9639999999999 1082.623 723.2090000000001 1108.848 793.679 1174.833 836.539 1228.311 889.395 1296.665 956.953 1345.759 1057.589 1440 1076.4279999999999' fill='%23113255'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1013'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+  }
+
+  10% {
+    background-color: darkgreen;
+  }
+
+  20% {
+    background-color: rgb(221, 221, 134);
+  }
+
+  30% {
+    background-color: goldenrod;
+  }
+
+  40% {
+    background-color: rgb(134, 134, 248);
+  }
+
+  50% {
+    background-color: lightblue;
+  }
+
+  60% {
+    background-color: coral;
+  }
+
+  70% {
+    background-color: lightpink;
+  }
+
+  80% {
+    background-color: darkcyan;
+  }
+
+  90% {
+    background-color: peachpuff;
+  }
+
+  100% {
+    background-color: rgb(149, 153, 149);
+  }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+
+.a {
+  color: #e7484f;
+}
+
+.b {
+  color: #f68b1d;
+}
+
+.c {
+  color: #fced00;
+}
+
+.d {
+  color: #009e4f;
+}
+
+.e {
+  color: #00aac3;
+}
+
+.f {
+  color: #732982;
+}
+
+@keyframes slidebg {
+  to {
+    background-position: 20vw;
+  }
+}
+
+.follow {
+  margin-top: 40px;
+}
+
+.follow a {
+  color: black;
+  padding: 8px 16px;
+  text-decoration: none;
 }
