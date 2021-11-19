@@ -18,35 +18,45 @@ A Leader board single page application
 - HTML
 - CSS
 - Javascript
+- WebPack
 
 ## Live Demo
-
+https://sj1978.github.io/Leader-board-project/
 
 
 
 
 ## Getting Started
 
-Getting Started
-To get a local copy up and running follow these simple example steps.
+## Getting Started
 
-Prerequisites:
+Clone the repo and enter the directory.
 
-Node.js & npm installed.
+```shell
+git clone https://github.com/sj1978/Leader-board-project.git 
+```
 
-Git and any terminal to run commands.
+After this you can run the app by opening `index.html` under the `src` directory.
 
-Installation:
-Clone the repo
-git clone:
-Install NPM packages
+If you want to experiment with the app follow these simple example steps.
 
+### Prerequisites
+You need to have `npm` installed on your local machine.
+
+### Install
+Install the npm packages.
+
+```shell
 npm install
+```
 
-install webpack
+### Usage
 
-npm start
+Run `npm run start` to start the local server and try the app.
 
+```shell
+npm run start
+```
 
 
 
