@@ -26,7 +26,7 @@ https://sj1978.github.io/Leader-board-project/
 
 
 
-## Getting Started
+
 
 ## Getting Started
 
@@ -62,7 +62,7 @@ npm run start
 
 
 
-## Authors
+## Author
 
 👤 **Anibal Amoroso**
 
